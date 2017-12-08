@@ -32,7 +32,7 @@ Router.beforeEach((to,from,next)=>{
     var RouterName = to.name;
     if(RouterName !== 'login'){
         if(!auth.loggedIn()){
-            alert('请先登录后操作');
+            //alert('请先登录后操作');
             next({
                 path : '/login',
                 query : {redirect : to.fullPath}
