@@ -1,0 +1,115 @@
+html,body{
+	font-size: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+#app{
+	height: 100%;
+	width:100%;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	background: #E9E9EC;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #e9e9ec;
+}
+
+.item{
+	cursor:pointer;
+}
+
+/*路由动画*/
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-enter{ 
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+/*辅助类*/
+.base-color{
+	color: #3fa9ff;
+}
+
+.pull-size{
+	height: 100%;
+	width: 100%;
+}
+
+.pull-width{
+	width: 100%;
+}
+
+.pull-height{
+	height: 100%;
+}
+
+.pull-width_80{
+	width: 80%;
+}
+
+.pull-width_50{
+	width: 50%;
+}
+
+.pull-width_90{
+	width: 90%;
+}
+
+.pull-width_30{
+	width: 30%;
+}
+
+.flex-col{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.just-space-b{
+	justify-content: space-between
+}
+
+.just-center{
+	justify-content: center;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-row-item_flex2{
+	flex: 2;
+}
+
+.flex-row-item{
+	flex: 1;
+	text-align: center;
+}
+
+.text-bold{
+	font-weight:bold;
+}
+
+.hide-check_label > .el-checkbox__label{
+	display: none;
+}
+
+.hide-check_label > .el-radio__label{
+	display: none;
+}
+
+
+
